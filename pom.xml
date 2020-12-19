@@ -5,7 +5,7 @@
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
     <version>4.2</version>
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <licenses>
@@ -308,7 +308,7 @@
     <dependency>
       <groupId>commons-validator</groupId>
       <artifactId>commons-validator</artifactId>
-      <version>1.6</version>
+      <version>1.7</version>
       <exclusions>
         <exclusion> <!-- Jenkins 2.204.1 provides a newer version than commons-digester mandates -->
           <groupId>commons-digester</groupId>
